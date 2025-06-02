@@ -18,7 +18,4 @@ Gem::Specification.new do |s|
   %w[actionmailer railties].each do |rails_gem|
     s.add_dependency rails_gem, '> 6.1.0', '< 9.0.0'
   end
-
-s.add_development_dependency "rspec", '>= 3.4.0'
-  s.add_development_dependency "webmock", '>= 1.24.2'
 end
